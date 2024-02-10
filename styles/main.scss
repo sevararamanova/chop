@@ -1,0 +1,230 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 1100px;
+    margin:0px auto;
+    font-family: sans-serif;
+   
+  
+   
+   
+   
+
+
+    .header {
+      
+        background-color: rgba(26, 206, 206, 0.58);
+        padding:20px;
+        text-align: center;
+        color:white;
+       
+a{
+    text-decoration: none;
+    color:white;
+   
+}
+
+    }
+    .header a:hover{
+        color:rgb(88, 88, 248);
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        padding:10px;
+      
+       
+
+
+        &__menu{
+            display: flex;
+            gap:30px;
+            position: absolute;
+            top:80px;
+            left:620px;
+            
+            a{
+text-decoration: none;
+color:rgb(160, 160, 160);
+            }
+            li {
+                list-style: none;
+            }
+            
+        }
+        &__img{
+             position: absolute; 
+           left:1000px; 
+
+        }
+    }
+    a:hover{
+        color: rgba(0, 255, 255, 0.52);
+    }
+.get{
+    position: relative;
+   
+   &__yum{
+    z-index:1;
+    background-color: rgb(240, 246, 247);
+    text-align: center;
+   }
+    &__txt{
+        text-align: center;
+        font-size: 30px;
+        padding:140px;
+       
+        position: absolute;
+        top:90px;
+        left:130px;
+        z-index: 10;
+       
+        span{
+
+            color:rgba(26, 206, 206, 0.58);
+        }
+        h1 span {
+            z-index:20;
+        }
+    }
+}
+.menu{
+    
+    &__button{
+     text-align: center;
+     margin-top: 50px;
+#one:hover{
+    background-color: aqua;
+}
+    button:nth-child(1){
+        background-color: rgba(26, 206, 206, 0.58);
+        padding:15px 30px;
+        border:none;
+        color:white;
+        border-radius: 10px;
+    }
+    button:nth-child(2){
+        background-color: white;
+        padding:15px 30px;
+        border:none;
+        color:black;
+        border: 1px solid rgb(208, 208, 208);
+        border-radius: 10px;
+    }
+    button:nth-child(3){
+        background-color: white;
+        padding:15px 30px;
+        border:none;
+        color:black;
+        border: 1px solid rgb(208, 208, 208);
+        border-radius: 10px;
+    }
+    button:nth-child(4){
+        background-color: white;
+        padding:15px 30px;
+        border:none;
+        color:black;
+        border: 1px solid rgb(208, 208, 208);
+        border-radius: 10px;
+    }
+    button:hover{
+background-color: rgb(150, 150, 150);
+color:white;
+    }
+}
+&__full{
+margin-top: 30px;
+display: flex;
+gap:137px;
+
+
+button:hover{
+    background-color: rgba(0, 255, 255, 0.818);
+    color:rgb(68, 68, 237);
+   }  
+
+  
+}
+&__full-1{
+  display: flex;
+  gap:6px;
+  color:rgb(162, 162, 162);
+  border:1px solid rgb(219, 238, 246);
+  width: 480px;
+  font-size: 12px;
+  padding:10px;
+  margin:40px 0px;
+  background-color: white;
+  border-radius: 10px;
+   span{
+    color:rgba(14, 179, 179, 0.605);
+   }
+   button{
+    border:none;
+    padding:10px 20px;
+    margin-top: 10px;
+    background-color:  rgba(28, 168, 168, 0.58);
+    color:white;
+    border-radius: 6px;
+   }
+  
+}
+
+}
+
+
+   .our{
+    position: relative;
+    &__yum{
+    background-color: rgb(240, 246, 247);
+    text-align: center;
+    z-index: 1;
+
+    }
+    &__txt{
+       
+font-size: 35px;
+z-index: 10;
+position: absolute;
+top:1490px;
+left:300px;
+        b{
+            color:rgba(25, 197, 197, 0.652);
+        }
+    }
+   }
+   .home {
+  position: relative;
+    &__txt{
+        height:500px;
+        flex-direction: row;
+        padding: 100px;
+       
+       
+        h1{
+        color:rgba(18, 220, 220, 0.644);
+        font-size: 40px;
+        
+    }
+       p{
+        color:rgb(152, 149, 149);
+       }
+      
+    }
+    &__img {
+        border: 1px solid red;
+        position: absolute;
+       left: 300px;
+           }
+   
+   }
+   
+}

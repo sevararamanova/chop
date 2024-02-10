@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1100px;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+.container .header {
+  background-color: rgba(26, 206, 206, 0.58);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.container .header a {
+  text-decoration: none;
+  color: white;
+}
+.container .header a:hover {
+  color: rgb(88, 88, 248);
+}
+.container .navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.container .navbar__menu {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  top: 80px;
+  left: 620px;
+}
+.container .navbar__menu a {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+}
+.container .navbar__menu li {
+  list-style: none;
+}
+.container .navbar__img {
+  position: absolute;
+  left: 1000px;
+}
+.container a:hover {
+  color: rgba(0, 255, 255, 0.52);
+}
+.container .get {
+  position: relative;
+}
+.container .get__yum {
+  z-index: 1;
+  background-color: rgb(240, 246, 247);
+  text-align: center;
+}
+.container .get__txt {
+  text-align: center;
+  font-size: 30px;
+  padding: 140px;
+  position: absolute;
+  top: 90px;
+  left: 130px;
+  z-index: 10;
+}
+.container .get__txt span {
+  color: rgba(26, 206, 206, 0.58);
+}
+.container .get__txt h1 span {
+  z-index: 20;
+}
+.container .menu__button {
+  text-align: center;
+  margin-top: 50px;
+}
+.container .menu__button #one:hover {
+  background-color: aqua;
+}
+.container .menu__button button:nth-child(1) {
+  background-color: rgba(26, 206, 206, 0.58);
+  padding: 15px 30px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.container .menu__button button:nth-child(2) {
+  background-color: white;
+  padding: 15px 30px;
+  border: none;
+  color: black;
+  border: 1px solid rgb(208, 208, 208);
+  border-radius: 10px;
+}
+.container .menu__button button:nth-child(3) {
+  background-color: white;
+  padding: 15px 30px;
+  border: none;
+  color: black;
+  border: 1px solid rgb(208, 208, 208);
+  border-radius: 10px;
+}
+.container .menu__button button:nth-child(4) {
+  background-color: white;
+  padding: 15px 30px;
+  border: none;
+  color: black;
+  border: 1px solid rgb(208, 208, 208);
+  border-radius: 10px;
+}
+.container .menu__button button:hover {
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+.container .menu__full {
+  margin-top: 30px;
+  display: flex;
+  gap: 137px;
+}
+.container .menu__full button:hover {
+  background-color: rgba(0, 255, 255, 0.818);
+  color: rgb(68, 68, 237);
+}
+.container .menu__full-1 {
+  display: flex;
+  gap: 6px;
+  color: rgb(162, 162, 162);
+  border: 1px solid rgb(219, 238, 246);
+  width: 480px;
+  font-size: 12px;
+  padding: 10px;
+  margin: 40px 0px;
+  background-color: white;
+  border-radius: 10px;
+}
+.container .menu__full-1 span {
+  color: rgba(14, 179, 179, 0.605);
+}
+.container .menu__full-1 button {
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: rgba(28, 168, 168, 0.58);
+  color: white;
+  border-radius: 6px;
+}
+.container .our {
+  position: relative;
+}
+.container .our__yum {
+  background-color: rgb(240, 246, 247);
+  text-align: center;
+  z-index: 1;
+}
+.container .our__txt {
+  font-size: 35px;
+  z-index: 10;
+  position: absolute;
+  top: 1490px;
+  left: 300px;
+}
+.container .our__txt b {
+  color: rgba(25, 197, 197, 0.652);
+}
+.container .home {
+  position: relative;
+}
+.container .home__txt {
+  height: 500px;
+  flex-direction: row;
+  padding: 100px;
+}
+.container .home__txt h1 {
+  color: rgba(18, 220, 220, 0.644);
+  font-size: 40px;
+}
+.container .home__txt p {
+  color: rgb(152, 149, 149);
+}
+.container .home__img {
+  border: 1px solid red;
+  position: absolute;
+  left: 300px;
+}/*# sourceMappingURL=main.css.map */
